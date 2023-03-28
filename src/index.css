@@ -1,0 +1,20 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  --background-color: #f2f2f2;
+  --main-color: #ff5757;
+  --title1: 6rem;
+  --title2: 4rem;
+  --title3: 2.5rem;
+  --text: 1.7rem;
+}
+
+body {
+  background: var(--background-color);
+  font-family: "Oswald", sans-serif;
+}
