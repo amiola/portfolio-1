@@ -1,7 +1,7 @@
 import React from 'react'
-import Nav from '../navbar/Nav'
 import './styles/Skills.css'
 import { skills } from './assets/skills'
+import Nav from '../navbar/Nav'
 
 const Skills = () => {
     

@@ -38,6 +38,7 @@ img {
   grid-template-rows: 3fr 7rem 0.1fr 0.1fr 12rem 2rem 5rem;
   gap: 2rem;
   transform: rotate(-40deg) translate(25vw, -30vh);
+  z-index: -1;
 }
 
 .skills-title2 {
