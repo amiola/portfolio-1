@@ -11,12 +11,17 @@ p {
   font-size: var(--text2);
   width: 90%;
 }
-.right {
+.html-right {
   text-align: right;
-  padding-right: 2rem;
+  padding-right: 5rem;
+}
+.react-right {
+  text-align: right;
+  padding-top: 5rem;
 }
 .jus-right {
   display: flex;
+  flex-direction: column;
   justify-content: end;
 }
 img {
@@ -29,10 +34,10 @@ img {
 .skills-container {
   width: 90vw;
   display: grid;
-  grid-template-columns: auto 2rem 0.2fr 0.7fr 0.5fr 5rem 0.5fr 0.5fr 0.2fr 2fr;
+  grid-template-columns: auto 2rem 0.2fr 0.7fr 0.5fr 5rem 0.5fr 0.5fr 0.1fr 2fr;
   grid-template-rows: 3fr 7rem 0.1fr 0.1fr 12rem 2rem 5rem;
-  gap: 1rem;
-  transform: rotate(-40deg) translate(20vw, -25vh);
+  gap: 2rem;
+  transform: rotate(-40deg) translate(25vw, -30vh);
 }
 
 .skills-title2 {
@@ -68,9 +73,10 @@ img {
   grid-row: 4;
   justify-content: start;
   border-bottom: 1px dashed black;
+  transform: translateX(-5rem);
 }
 .html-text-box {
-  grid-column: 4/10;
+  grid-column: 5/10;
   grid-row: 4;
 }
 
