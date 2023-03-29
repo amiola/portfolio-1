@@ -1,17 +1,18 @@
 import React from 'react'
+import { NavLink } from 'react-router-dom'
 import './Home.css'
 
 const Home = () => {
   return (
     <>
-    <div className="home-container">
+    <section className="home-container">
         <h1 className="name-title">agustín miola</h1>
         <h1 className="fe-title">front-end web developer</h1>
         <p className="about-me">Hi, my name is Agustín! I've been studying Front-End Web Development for the last 8 months.  Take a look of what I made at</p>
-        <h2 className="projects-title">projects</h2>
-        <div className="skills-container">
+        <div className="projects-box"><NavLink to='/projects' className="projects-title">projects</NavLink></div>
+        <div className="skills-box">
             <ul>
-                <li>skills</li>
+                <li><NavLink to='/skills' className='skills-title'>skills</NavLink></li>
                 <li>
                   &#160;&#160;&#160;&#160;&#160;&#160;&#160;
                   &#160;&#160;&#160;&#160;&#160;&#160;&#160;javascript</li>
@@ -20,12 +21,12 @@ const Home = () => {
                 <li>react</li>
             </ul>
         </div>
-        <h2 className="contact-title">contact</h2>
+        <div className="contact-box"><NavLink to='/contact' className="contact-title">contact</NavLink></div>
         <div className="social-links">
-            <img src="../public/img/linkedin.png" alt="linedin link" />
-            <img src="../public/img/github.png" alt="github link" />
+          <NavLink to='https://www.linkedin.com/in/agust%C3%ADn-eli%C3%A1n-miola-649264211/' ><img src="../public/icons/linkedin.png" alt="linedin link" className='linkedin-link'/></NavLink>
+            <NavLink to='https://github.com/amiola' ><img src="../public/icons/github.png" alt="github link" className='git-link'/></NavLink>
         </div>
-    </div>
+    </section>
     </>
   )
 }
