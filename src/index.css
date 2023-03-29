@@ -7,11 +7,13 @@
 html {
   font-size: 62.5%;
   --background-color: #f2f2f2;
+  --background-color-2: #ccc6c6;
   --main-color: #ff5757;
   --title1: 6rem;
   --title2: 4rem;
   --title3: 2.5rem;
   --title4: 3rem;
+  --title5: 2rem;
   --text: 1.7rem;
   --text2: 2rem;
 }
