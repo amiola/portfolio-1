@@ -29,10 +29,10 @@ img {
 .skills-container {
   width: 90vw;
   display: grid;
-  grid-template-columns: auto 2rem 0.2fr 1fr 0.5fr 5rem 0.5fr 0.5fr 0.2fr 2fr;
+  grid-template-columns: auto 2rem 0.2fr 0.7fr 0.5fr 5rem 0.5fr 0.5fr 0.2fr 2fr;
   grid-template-rows: 3fr 7rem 0.1fr 0.1fr 12rem 2rem 5rem;
   gap: 1rem;
-  transform: rotate(-40deg) translate(8vw, 11vh);
+  transform: rotate(-40deg) translate(20vw, -25vh);
 }
 
 .skills-title2 {
@@ -99,7 +99,7 @@ img {
 }
 .react-text-box {
   grid-column: 6/8;
-  grid-row: 3/5;
+  grid-row: 2/5;
   -webkit-writing-mode: vertical-rl;
   writing-mode: vertical-rl;
   justify-self: end;
