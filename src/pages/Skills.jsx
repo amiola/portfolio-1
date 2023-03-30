@@ -11,13 +11,12 @@ const Skills = () => {
     const show =(e)=>{
       setSkills(skills.map((s,i)=>{
           if(i== e.target.id) {
-            return {...s, hidden: ''}
+            return {...s, hidden: 'show'}
           }
           else {
             return s
           }
         }))
-        console.log(skills);
     }
 
     const clear = ()=>{
@@ -41,12 +40,13 @@ const Skills = () => {
         <h1 className="skills-title2">skills</h1>
         <div className="red-line red-line1"></div>
         
-        {skills.map((skill,i)=>(
+          {skills.map((skill,i)=>(
             <div key={i} className={skill.textClasses} id={skill.hidden}>
                 <h3 className={skill.titleClasses}>{skill.title}</h3>
                 <p>{skill.text}</p>
             </div>
             ))}
+
         {skills.map((skill,i)=>{
             const image = `public/icons/${skill.icon}`;
             return (
