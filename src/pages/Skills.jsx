@@ -5,13 +5,13 @@ import Nav from '../navbar/Nav'
 
 const Skills = () => {
 
-  
   const [skills, setSkills] = useState(skillsData);
-    
+  const [clicks, setClicks] = useState(0);
+
     const show =(e)=>{
       setSkills(skills.map((s,i)=>{
           if(i== e.target.id) {
-            return {...s, hidden: false}
+            return {...s, hidden: ''}
           }
           else {
             return s
@@ -19,6 +19,21 @@ const Skills = () => {
         }))
         console.log(skills);
     }
+
+    const clear = ()=>{
+      setSkills(skillsData);
+    }
+
+    const show2 = (e)=>{
+      if(clicks===0){
+        show(e);
+        setClicks(1);
+      } else{
+        clear();
+        setClicks(0);
+      }
+    }
+
   return (
     <>
     <Nav/>
@@ -36,7 +51,7 @@ const Skills = () => {
             const image = `public/icons/${skill.icon}`;
             return (
             <img key={i} id={i} src={image} alt={skill.name + ' logo'} className={skill.imgClasses}
-            onClick={show}/>
+            onClick={show2}/>
         )})}
         
         <div className="red-line red-line2"></div>
