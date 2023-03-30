@@ -1,10 +1,24 @@
-import React from 'react'
+import React, { useState } from 'react'
 import './styles/Skills.css'
-import { skills } from './assets/skills'
+import { skillsData } from './assets/skills'
 import Nav from '../navbar/Nav'
 
 const Skills = () => {
+
+  
+  const [skills, setSkills] = useState(skillsData);
     
+    const show =(e)=>{
+      setSkills(skills.map((s,i)=>{
+          if(i== e.target.id) {
+            return {...s, hidden: false}
+          }
+          else {
+            return s
+          }
+        }))
+        console.log(skills);
+    }
   return (
     <>
     <Nav/>
@@ -12,16 +26,17 @@ const Skills = () => {
         <h1 className="skills-title2">skills</h1>
         <div className="red-line red-line1"></div>
         
-        {skills.map(skill=>(
-            <div key={skill.name} className={skill.textClasses}>
+        {skills.map((skill,i)=>(
+            <div key={i} className={skill.textClasses} id={skill.hidden}>
                 <h3 className={skill.titleClasses}>{skill.title}</h3>
                 <p>{skill.text}</p>
             </div>
             ))}
-        {skills.map(skill=>{
+        {skills.map((skill,i)=>{
             const image = `public/icons/${skill.icon}`;
             return (
-            <img key={skill.icon} src={image} alt={skill.name + ' logo'} className={skill.imgClasses}/>
+            <img key={i} id={i} src={image} alt={skill.name + ' logo'} className={skill.imgClasses}
+            onClick={show}/>
         )})}
         
         <div className="red-line red-line2"></div>

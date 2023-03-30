@@ -1,3 +1,6 @@
+#hidden {
+  visibility: hidden;
+}
 .red-line {
   height: 100%;
   width: 100%;
@@ -26,6 +29,10 @@ p {
 }
 img {
   width: 10rem;
+  cursor: pointer;
+}
+img:hover {
+  transform: scale(1.1) translateY(-0.2rem);
 }
 .big {
   width: 12rem;
@@ -76,6 +83,9 @@ img {
   border-bottom: 1px dashed black;
   transform: translateX(-5rem);
 }
+.html-img:hover {
+  transform: translateX(-5rem) scale(1.1) translateY(-0.2rem);
+}
 .html-text-box {
   grid-column: 5/10;
   grid-row: 4;
@@ -89,6 +99,9 @@ img {
   transform-origin: top right;
   transform: rotate(90deg) translateX(12rem);
   border-bottom: 1px dashed black;
+}
+.css-img:hover {
+  transform: rotate(90deg) translateX(12rem) scale(1.1) translateY(-0.2rem);
 }
 .css-text-box {
   grid-column: 5/7;
