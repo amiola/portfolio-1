@@ -5,6 +5,7 @@ import './Home.css'
 const Home = () => {
   return (
     <>
+    <div className="whole-home-container">
     <section className="home-container">
         <h1 className="name-title">agustín miola</h1>
         <h1 className="fe-title">front-end web developer</h1>
@@ -14,6 +15,7 @@ const Home = () => {
             <ul>
                 <li><NavLink to='/skills' className='skills-title'>skills</NavLink></li>
                 <li>
+                  {/* spaces: */}
                   &#160;&#160;&#160;&#160;&#160;&#160;&#160;
                   &#160;&#160;&#160;&#160;&#160;&#160;&#160;javascript</li>
                 <li>html</li>
@@ -27,6 +29,7 @@ const Home = () => {
             <NavLink to='https://github.com/amiola' ><img src="../public/icons/github.png" alt="github link" className='git-link'/></NavLink>
         </div>
     </section>
+    </div>
     </>
   )
 }

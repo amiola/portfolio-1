@@ -36,6 +36,7 @@ const Skills = () => {
   return (
     <>
     <Nav/>
+    <div className="whole-skills-container">
     <section className="skills-container">
         <h1 className="skills-title2">skills</h1>
         <div className="red-line red-line1"></div>
@@ -57,6 +58,7 @@ const Skills = () => {
         <div className="red-line red-line2"></div>
         <h3 className='other-skills'>Other skills: SQL, git</h3>
     </section>
+    </div>
     </>
   )
 }

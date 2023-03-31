@@ -11,7 +11,7 @@ export const contactData = [
     },
     {
         name: 'message',
-        type: 'text',
+        type: 'textarea',
         class: 'field contact-message'
     }
 ];

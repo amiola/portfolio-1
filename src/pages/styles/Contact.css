@@ -6,28 +6,46 @@
 
 .contact-text {
   order: 2;
-  flex: 1 1 50rem;
+  flex: 1 1 40rem;
 }
 .contact-form {
+  margin-top: 20vh;
   display: flex;
   flex-direction: column;
   align-items: end;
-  flex: 1 1 20rem;
+  flex: 1 1 40rem;
 }
 
 .field {
+  display: flex;
   font-size: var(--title5);
-  padding: 2rem;
-  margin: 1rem;
+  padding: 0.5rem;
+  margin: 0.5rem;
 }
 
 label {
   margin-right: 2rem;
+  border-bottom: 1px dashed black;
+  align-self: flex-start;
+  justify-content: end;
 }
 
-input {
+input,
+textarea {
+  width: 30rem;
   font-size: var(--text);
   padding: 1rem;
   background: var(--background-color-2);
   border: none;
+  resize: none;
+}
+
+.submit-box {
+  width: 32rem;
+  justify-content: end;
+  text-align: center;
+}
+input[type="submit"] {
+  width: 15rem;
+  align-items: center;
 }

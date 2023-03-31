@@ -1,3 +1,9 @@
+.whole-skills-container {
+  width: 100vw;
+  height: 89.5vh;
+  overflow: hidden;
+}
+
 #hidden {
   visibility: hidden;
   animation: opening 1s ease-in-out;
@@ -149,21 +155,4 @@ img:hover {
   to {
     opacity: 1;
   }
-}
-
-.fade-enter {
-  opacity: 0;
-}
-.fade-exit {
-  opacity: 1;
-}
-.fade-enter-active {
-  opacity: 1;
-}
-.fade-exit-active {
-  opacity: 0;
-}
-.fade-enter-active,
-.fade-exit-active {
-  transition: opacity 500ms;
 }
