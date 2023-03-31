@@ -11,7 +11,7 @@ const Contact = () => {
     <Nav/>
     <section className="contact-container">
     <div className="contact-text">
-    <h1>Contact</h1>
+    <h1 className='contact-title2'>contact</h1>
     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum, quo quasi! Enim odit laboriosam ab officia labore rerum dolorem quidem.</p>
     </div>
     <form className='contact-form'>
@@ -24,6 +24,9 @@ const Contact = () => {
             &#160;&#160;
             &#160;&#160;&#160;&#160;&#160;&#160;&#160;
             &#160;&#160;&#160;&#160;&#160;&#160;&#160;
+            &#160;&#160;&#160;&#160;&#160;&#160;&#160;
+            &#160;&#160;&#160;&#160;&#160;&#160;&#160;
+            &#160;&#160;&#160;&#160;&#160;&#160;&#160;
               {field.name[0].toUpperCase()+field.name.substring(1)}:</label>
             <textarea rows='7' autoComplete="off"/>
           </div>
@@ -33,6 +36,9 @@ const Contact = () => {
           <div className={field.class} key={i}>
           <label htmlFor={field.name}>
             {/* spaces: */}
+          &#160;&#160;&#160;&#160;&#160;&#160;&#160;
+          &#160;&#160;&#160;&#160;&#160;&#160;&#160;
+          &#160;&#160;&#160;&#160;&#160;&#160;&#160;
           &#160;&#160;&#160;&#160;&#160;&#160;&#160;
           &#160;&#160;&#160;&#160;&#160;&#160;&#160;
           &#160;&#160;&#160;&#160;&#160;&#160;&#160;
