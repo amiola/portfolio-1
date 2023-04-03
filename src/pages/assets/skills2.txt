@@ -1,0 +1,8 @@
+
+JavaScript fundamentals, modern JavaScript ES6+, how JavaScript works behind the scenes, object-oriented programming, asynchronous JavaScript and modern tools like NPM, Parcel, Babel, and ES6 modules.
+
+Responsive design, animations, flexbox, CSS Grid, SASS, optimization, accessibility and deployment.
+
+Elements, tags, classes, ids, events, lists, links, working with images and SVG's, forms.
+
+Components, hooks (useRef, useState, useEffect, useReducer), events, functions, context, routing, forms, styled components.

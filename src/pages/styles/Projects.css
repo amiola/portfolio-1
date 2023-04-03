@@ -69,7 +69,7 @@ p {
   position: absolute;
   width: 70vw;
   height: 85vh;
-  border: 2px dashed black;
+  border: 2px dashed var(--main-color);
   border-radius: 50%;
   top: -20%;
   left: -5%;
@@ -79,7 +79,7 @@ p {
   position: absolute;
   width: 50vw;
   height: 80vh;
-  border: 2px dashed black;
+  border: 2px dashed var(--main-color);
   border-radius: 50%;
   bottom: -30%;
   right: -10%;

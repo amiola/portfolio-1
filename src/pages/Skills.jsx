@@ -53,6 +53,7 @@ const Skills = () => {
             return (
             <img key={i} id={i} src={image} alt={skill.name + ' logo'} className={skill.imgClasses}
             onClick={show2}/>
+            
         )})}
         
         <div className="red-line red-line2"></div>

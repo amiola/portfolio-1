@@ -44,12 +44,12 @@ nav {
 }
 
 .active.nav-skills {
-  border-bottom: 1px dashed black;
+  border-bottom: 2px dashed black;
 }
 .active.nav-projects {
   background: var(--main-color);
 }
 .active.nav-contact {
-  border-bottom: 5px solid black;
-  border-top: 5px solid black;
+  border-bottom: 4px solid black;
+  border-top: 4px solid black;
 }
