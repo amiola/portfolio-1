@@ -61,7 +61,7 @@ img:hover {
 .skills-title2 {
   font-weight: 500;
   font-size: var(--title4);
-  border-left: 1px dashed black;
+  border-left: 2px dashed black;
   letter-spacing: 1rem;
   text-align: right;
   -webkit-writing-mode: vertical-rl;
@@ -79,7 +79,7 @@ img:hover {
 .js-img {
   grid-column: 3;
   grid-row: 3;
-  border-bottom: 1px dashed black;
+  border-bottom: 2px dashed black;
 }
 .js-text-box {
   grid-column: 4/9;
@@ -90,7 +90,7 @@ img:hover {
   grid-column: 10;
   grid-row: 4;
   justify-content: start;
-  border-bottom: 1px dashed black;
+  border-bottom: 2px dashed black;
   transform: translateX(-5rem);
 }
 .html-img:hover {
@@ -108,7 +108,7 @@ img:hover {
   align-self: end;
   transform-origin: top right;
   transform: rotate(90deg) translateX(12rem);
-  border-bottom: 1px dashed black;
+  border-bottom: 2px dashed black;
 }
 .css-img:hover {
   transform: rotate(90deg) translateX(12rem) scale(1.1) translateY(-0.2rem);
@@ -125,7 +125,7 @@ img:hover {
   grid-column: 6/8;
   grid-row: 5;
   justify-self: end;
-  border-right: 1px dashed black;
+  border-right: 2px dashed black;
 }
 .react-text-box {
   grid-column: 6/8;

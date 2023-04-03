@@ -1,0 +1,86 @@
+h3 {
+  font-size: var(--title3);
+  font-weight: 500;
+}
+p {
+  font-size: var(--text2);
+  width: 90%;
+}
+.project-img {
+  width: 40rem;
+  cursor: pointer;
+}
+.project-img:hover {
+  transform: scale(1.03) translateY(-0.1rem);
+}
+
+.projects-container {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  overflow: hidden;
+}
+.projects-title2 {
+  order: 1;
+  background: var(--main-color);
+  font-size: var(--title4);
+  font-weight: 500;
+  letter-spacing: 1rem;
+  margin: 2rem 0;
+  width: 40%;
+  text-align: right;
+  padding-right: 5rem;
+  padding-bottom: 0.5rem;
+}
+
+.projects {
+  display: flex;
+  flex-direction: column;
+  margin-top: 5rem;
+}
+.project {
+  display: flex;
+  margin: 1rem 10rem;
+}
+.project-text {
+  margin: 1rem;
+}
+
+.box-left {
+  order: 1;
+}
+.title-right {
+  text-align: right;
+}
+
+.text-right {
+  width: 65%;
+  margin-left: 25rem;
+}
+.text-left {
+  width: 65%;
+}
+
+.circles {
+  z-index: -1;
+}
+
+.circle1 {
+  position: absolute;
+  width: 70vw;
+  height: 85vh;
+  border: 2px dashed black;
+  border-radius: 50%;
+  top: -20%;
+  left: -5%;
+}
+
+.circle2 {
+  position: absolute;
+  width: 50vw;
+  height: 80vh;
+  border: 2px dashed black;
+  border-radius: 50%;
+  bottom: -30%;
+  right: -10%;
+}
