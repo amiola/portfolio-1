@@ -31,20 +31,21 @@ p {
 .react-right {
   text-align: right;
   padding-top: 5rem;
+  transform: translateY(-3.5rem);
 }
 .jus-right {
   display: flex;
   flex-direction: column;
   justify-content: end;
 }
-img {
+.img1 {
   width: 10rem;
   cursor: pointer;
 }
-img:hover {
-  transform: scale(1.1) translateY(-0.2rem);
+.image:hover {
+  transform: scale(1.05) translateY(-0.2rem);
 }
-.big {
+.big img {
   width: 12rem;
 }
 
@@ -77,9 +78,11 @@ img:hover {
 }
 
 .js-img {
+  margin-left: 1rem;
+  position: relative;
   grid-column: 3;
   grid-row: 3;
-  border-bottom: 2px dashed black;
+  /* border-bottom: 2px dashed black; */
 }
 .js-text-box {
   grid-column: 4/9;
@@ -87,31 +90,35 @@ img:hover {
 }
 
 .html-img {
+  position: relative;
   grid-column: 10;
   grid-row: 4;
   justify-content: start;
-  border-bottom: 2px dashed black;
+  /* border-bottom: 2px dashed black; */
   transform: translateX(-5rem);
 }
 .html-img:hover {
-  transform: translateX(-5rem) scale(1.1) translateY(-0.2rem);
+  transform: translateX(-5rem) scale(1.05) translateY(-0.2rem);
 }
 .html-text-box {
+  transform: translateY(-5rem);
+  margin-right: 0.5rem;
   grid-column: 5/10;
   grid-row: 4;
 }
 
 .css-img {
+  position: relative;
   grid-column: 5/7;
   grid-row: 1;
   justify-self: end;
   align-self: end;
   transform-origin: top right;
   transform: rotate(90deg) translateX(12rem);
-  border-bottom: 2px dashed black;
+  /* border-bottom: 2px dashed black; */
 }
 .css-img:hover {
-  transform: rotate(90deg) translateX(12rem) scale(1.1) translateY(-0.2rem);
+  transform: rotate(90deg) translateX(12rem) scale(1.05) translateY(-0.2rem);
 }
 .css-text-box {
   grid-column: 5/7;
@@ -119,13 +126,15 @@ img:hover {
   -webkit-writing-mode: vertical-rl;
   writing-mode: vertical-rl;
   justify-self: end;
+  transform: translateY(-2rem);
 }
 
 .react-img {
+  position: relative;
   grid-column: 6/8;
   grid-row: 5;
   justify-self: end;
-  border-right: 2px dashed black;
+  /* border-right: 2px dashed black; */
 }
 .react-text-box {
   grid-column: 6/8;
@@ -133,6 +142,7 @@ img:hover {
   -webkit-writing-mode: vertical-rl;
   writing-mode: vertical-rl;
   justify-self: end;
+  transform: translateY(2rem);
 }
 
 .red-line2 {
@@ -146,6 +156,28 @@ img:hover {
   border-bottom: 1px dashed black;
   font-weight: 400;
   font-size: var(--title3);
+}
+
+.black {
+  z-index: -1;
+  position: absolute;
+}
+.black-js-img {
+  width: 10rem;
+  top: -2rem;
+  right: 2rem;
+}
+.black-html-img {
+  top: -2rem;
+  left: -2rem;
+}
+.black-css-img {
+  top: 2rem;
+  right: 2rem;
+}
+.black-react-img {
+  top: -2rem;
+  right: 2rem;
 }
 
 @keyframes opening {

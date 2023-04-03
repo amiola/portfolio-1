@@ -50,10 +50,13 @@ const Skills = () => {
 
         {skills.map((skill,i)=>{
             const image = `public/icons/${skill.icon}`;
+            const blackImage = `public/icons/black-${skill.icon}`;
             return (
-            <img key={i} id={i} src={image} alt={skill.name + ' logo'} className={skill.imgClasses}
+              <div key={i} className={skill.imgClasses}>
+            <img className='img1' id={i} src={image} alt={skill.name + ' logo'}
             onClick={show2}/>
-            
+            <img  className={skill.blackImgClasses} src={blackImage} />
+            </div>
         )})}
         
         <div className="red-line red-line2"></div>

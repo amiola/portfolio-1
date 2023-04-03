@@ -7,7 +7,8 @@ export const skillsData = [
         textClasses: 'js-text-box',
         hidden: 'hidden',
         titleClasses: '',
-        imgClasses: 'js-img'
+        imgClasses: 'js-img image',
+        blackImgClasses: 'black black-js-img'
     },
     {   
         name: 'html',
@@ -17,7 +18,8 @@ export const skillsData = [
         textClasses: 'html-text-box jus-right',
         hidden: 'hidden',
         titleClasses: 'html-right',
-        imgClasses: 'html-img big'
+        imgClasses: 'html-img big image',
+        blackImgClasses: 'black black-html-img'
     },
     {   
         name: 'css',
@@ -27,7 +29,8 @@ export const skillsData = [
         textClasses: 'css-text-box',
         hidden: 'hidden',
         titleClasses: '',
-        imgClasses: 'css-img big'
+        imgClasses: 'css-img big image',
+        blackImgClasses: 'black black-css-img'
     },
     {   
         name: 'react',
@@ -37,6 +40,7 @@ export const skillsData = [
         textClasses: 'react-text-box jus-right',
         hidden: 'hidden',
         titleClasses: 'react-right',
-        imgClasses: 'react-img big'
+        imgClasses: 'react-img big image',
+        blackImgClasses: 'black black-react-img'
     },
 ];
