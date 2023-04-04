@@ -44,7 +44,8 @@ html {
   --title5-r: 2rem;
   --text-r: 1.7rem;
   --text2-r: 1.8rem;
-  --nav-links-r: 2rem;
+
+  --nav-links-r: 2.5rem;
 }
 
 body {

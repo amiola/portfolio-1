@@ -2,14 +2,18 @@
   width: 100vw;
   height: 89.5vh;
   overflow: hidden;
+  animation: opening 0.5s ease-in-out;
+  transition: 0.5s ease all;
 }
 
 #hidden {
   visibility: hidden;
-  animation: opening 1s ease-in-out;
+  animation: closing 0.5s ease-in-out;
+  transition: 0.5s ease all;
 }
 #show {
-  animation: opening 1s ease-in-out;
+  animation: opening 0.5s ease-in-out;
+  transition: 0.5s ease all;
 }
 .red-line {
   height: 100%;
@@ -53,7 +57,7 @@ p {
   width: 90vw;
   display: grid;
   grid-template-columns: auto 2rem 0.2fr 0.7fr 0.5fr 5rem 0.5fr 0.5fr 0.1fr 2fr;
-  grid-template-rows: 3fr 7rem 0.1fr 0.1fr 12rem 2rem 5rem;
+  grid-template-rows: 40rem 7rem 0.1fr 0.1fr 12rem 2rem 5rem;
   gap: 2rem;
   transform: rotate(-40deg) translate(22vw, -30vh);
   z-index: -1;
@@ -186,5 +190,77 @@ p {
   }
   to {
     opacity: 1;
+  }
+}
+
+@keyframes closing {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+
+/* narrow heights */
+@media only screen and (max-height: 650px) {
+  .whole-skills-container {
+    height: 70rem;
+  }
+}
+
+/* title and other skills change */
+@media only screen and (max-width: 1200px) {
+  .other-skills {
+    grid-column: 7/11;
+  }
+}
+@media only screen and (max-width: 992px) {
+  .skills-title2 {
+    grid-row: 1/4;
+  }
+  .html-text-box {
+    grid-column: 4/10;
+  }
+  .js-text-box {
+    grid-column: 4/10;
+  }
+}
+@media only screen and (max-width: 940px) {
+  .other-skills {
+    grid-column: 6/11;
+  }
+}
+
+@media only screen and (max-width: 860px) {
+  .other-skills {
+    display: none;
+  }
+  .html-text-box {
+    grid-column: 3/10;
+  }
+  .js-text-box {
+    grid-column: 4/11;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .img1 {
+    width: 8rem;
+  }
+  .big img {
+    width: 10rem;
+  }
+  .back-js-img {
+    width: 8rem;
+  }
+  .react-text-box {
+    transform: translateY(0rem);
+  }
+  .css-text-box {
+    transform: translateY(0rem);
+  }
+  .html-text-box {
+    transform: translateY(0);
   }
 }

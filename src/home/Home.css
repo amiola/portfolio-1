@@ -150,7 +150,6 @@ developer */
 }
 
 /* narrow devices */
-
 @media only screen and (max-width: 370px) {
   .whole-home-container {
     overflow: visible;
@@ -174,5 +173,15 @@ developer */
   }
   .social-links .git-link {
     width: 4rem;
+  }
+}
+
+/* narrow heights */
+@media only screen and (max-height: 610px) {
+  .whole-home-container {
+    overflow: visible;
+  }
+  .skills-box {
+    transform: rotate(90deg) translateX(15rem);
   }
 }
