@@ -19,6 +19,8 @@ p {
   flex-direction: column;
   position: relative;
   overflow: hidden;
+  animation: opening 0.5s ease-in-out;
+  transition: 0.5s ease all;
 }
 .projects-title2 {
   order: 1;
@@ -87,4 +89,13 @@ p {
   border-radius: 50%;
   bottom: -30%;
   right: -10%;
+}
+
+@keyframes opening {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }

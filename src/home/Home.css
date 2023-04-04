@@ -2,6 +2,8 @@
   width: 100vw;
   height: 100vh;
   overflow: hidden;
+  animation: opening 0.5s ease-in-out;
+  transition: 0.5s ease all;
 }
 .home-container {
   border-top: 2px dashed black;
@@ -183,5 +185,14 @@ developer */
   }
   .skills-box {
     transform: rotate(90deg) translateX(15rem);
+  }
+}
+
+@keyframes opening {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
   }
 }

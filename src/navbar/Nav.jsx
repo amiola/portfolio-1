@@ -17,7 +17,7 @@ const Nav = () => {
             <li><NavLink to='/projects' className='nav-projects'>projects</NavLink></li>
             <li><NavLink to='/contact' className='nav-contact'>contact</NavLink></li>
         </ul>
-        <div className="nav-hamburguer" onClick={()=> setIsOpen(!isOpen)}>
+        <div className={`nav-hamburguer ${isOpen? 'open':''}`} onClick={()=> setIsOpen(!isOpen)}>
           <span></span>
           <span></span>
           <span></span>

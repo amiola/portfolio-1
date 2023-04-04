@@ -264,3 +264,135 @@ p {
     transform: translateY(0);
   }
 }
+
+@media only screen and (max-width: 420px) {
+  h3,
+  p {
+    margin-left: 2rem;
+  }
+
+  #hidden {
+    visibility: visible;
+    animation: none;
+    transition: none;
+  }
+  #show {
+    animation: none;
+    transition: none;
+  }
+  .whole-skills-container {
+    width: 100vw;
+    overflow: visible;
+  }
+  .skills-container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    flex: 1 1 10rem;
+    transform: rotate(0) translate(0, 0);
+  }
+
+  .skills-title2 {
+    border-bottom: 2px dashed black;
+    border-left: none;
+    writing-mode: horizontal-tb;
+  }
+
+  .red-line1 {
+    display: block;
+  }
+
+  .js-img {
+    position: inherit;
+    order: 1;
+    margin-left: 1rem;
+  }
+  .js-text-box {
+    order: 2;
+  }
+
+  .html-right {
+    text-align: left;
+    padding-right: 0rem;
+  }
+  .react-right {
+    text-align: left;
+    padding-top: 0rem;
+    transform: translateY(0);
+  }
+
+  .html-img {
+    position: inherit;
+    order: 3;
+    transform: translateX(0);
+  }
+  .html-img:hover {
+    transform: translateX(0) scale(1) translateY(0);
+  }
+
+  .html-text-box {
+    transform: translateY(0);
+    order: 4;
+    justify-content: start;
+  }
+
+  .css-img {
+    position: inherit;
+    transform: rotate(0) translateX(0);
+    order: 5;
+    align-self: start;
+  }
+  .css-img:hover {
+    transform: rotate(0) translateX(0) scale(1) translateY(0);
+  }
+
+  .css-text-box {
+    order: 6;
+    writing-mode: horizontal-tb;
+    transform: translateY(0);
+  }
+
+  .react-img {
+    position: inherit;
+    order: 7;
+  }
+  .react-text-box {
+    writing-mode: horizontal-tb;
+    transform: translateY(0);
+    order: 8;
+  }
+
+  .red-line2 {
+    order: 9;
+  }
+
+  .other-skills {
+    order: 10;
+    border-bottom: 1px dashed black;
+  }
+
+  .image {
+    position: relative;
+    margin-left: 5rem;
+  }
+  .image:hover {
+    transform: scale(1) translateY(0);
+  }
+
+  .back-js-img {
+    top: 2rem;
+    left: -2rem;
+  }
+  .back-html-img {
+    top: 2rem;
+    left: -2rem;
+  }
+  .back-css-img {
+    top: 2rem;
+    left: -2rem;
+  }
+  .back-react-img {
+    top: 2rem;
+    left: -2rem;
+  }
+}
