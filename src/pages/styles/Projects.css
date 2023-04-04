@@ -53,9 +53,13 @@ p {
   text-align: right;
 }
 
+.text-box-right {
+  display: flex;
+  justify-content: end;
+}
+
 .text-right {
   width: 65%;
-  margin-left: 25rem;
 }
 .text-left {
   width: 65%;

@@ -158,24 +158,24 @@ p {
   font-size: var(--title3);
 }
 
-.black {
+.back {
   z-index: -1;
   position: absolute;
 }
-.black-js-img {
+.back-js-img {
   width: 10rem;
   top: -2rem;
   right: 2rem;
 }
-.black-html-img {
+.back-html-img {
   top: -2rem;
   left: -2rem;
 }
-.black-css-img {
+.back-css-img {
   top: 2rem;
   right: 2rem;
 }
-.black-react-img {
+.back-react-img {
   top: -2rem;
   right: 2rem;
 }

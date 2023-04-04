@@ -16,8 +16,9 @@ const Home = () => {
                 <li><NavLink to='/skills' className='skills-title'>skills</NavLink></li>
                 <li>
                   {/* spaces: */}
-                  &#160;&#160;&#160;&#160;&#160;&#160;&#160;
-                  &#160;&#160;&#160;&#160;&#160;&#160;&#160;javascript</li>
+                  <span className='spaces1'>&#160;&#160;&#160;&#160;</span>
+                  <span className='spaces2'>&#160;&#160;&#160;&#160;</span>
+                  &#160;&#160;&#160;&#160;&#160;&#160;javascript</li>
                 <li>html</li>
                 <li>css</li>
                 <li>react</li>

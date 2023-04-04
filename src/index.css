@@ -7,6 +7,7 @@
 html {
   font-size: 62.5%;
 
+  /* PALETTE */
   /* Palette 1 */
   /* --background-color: #f2f2f2;
   --background-color-2: #ccc6c6;
@@ -25,6 +26,7 @@ html {
   --main-color: #f2542d;
   --main-color-2: #ec461c; */
 
+  /* FONT SIZES */
   --title1: 6.5rem;
   --title2: 4.5rem;
   --title3: 2.5rem;
@@ -33,13 +35,39 @@ html {
   --text: 1.7rem;
   --text2: 1.8rem;
   --nav-links: 2rem;
+
+  /* Rotated:*/
+  --title1-r: 5.5rem;
+  --title2-r: 3.5rem;
+  --title3-r: 2.3rem;
+  --title4-r: 2rem;
+  --title5-r: 2rem;
+  --text-r: 1.7rem;
+  --text2-r: 1.8rem;
+  --nav-links-r: 2rem;
 }
 
 body {
   background: var(--background-color);
-  font-family: "Oswald", sans-serif;
-  object-fit: cover;
+  /* object-fit: cover; */
   animation: opening 1s ease-in-out;
+}
+
+/* FONTS */
+h1,
+h2,
+h3,
+h4,
+h5,
+a,
+li,
+label {
+  font-family: "Oswald", sans-serif;
+}
+
+p,
+input {
+  font-family: "Source Sans Pro", sans-serif;
 }
 
 a {
@@ -47,7 +75,7 @@ a {
   color: black;
 }
 a:hover {
-  transform: scale(1.1) translateY(-0.2rem);
+  transform: scale(1.07) translateY(-0.2rem);
 }
 
 @keyframes opening {

@@ -8,7 +8,7 @@ export const skillsData = [
         hidden: 'hidden',
         titleClasses: '',
         imgClasses: 'js-img image',
-        blackImgClasses: 'black black-js-img'
+        backImgClasses: 'back back-js-img'
     },
     {   
         name: 'html',
@@ -19,7 +19,7 @@ export const skillsData = [
         hidden: 'hidden',
         titleClasses: 'html-right',
         imgClasses: 'html-img big image',
-        blackImgClasses: 'black black-html-img'
+        backImgClasses: 'back back-html-img'
     },
     {   
         name: 'css',
@@ -30,7 +30,7 @@ export const skillsData = [
         hidden: 'hidden',
         titleClasses: '',
         imgClasses: 'css-img big image',
-        blackImgClasses: 'black black-css-img'
+        backImgClasses: 'back back-css-img'
     },
     {   
         name: 'react',
@@ -41,6 +41,6 @@ export const skillsData = [
         hidden: 'hidden',
         titleClasses: 'react-right',
         imgClasses: 'react-img big image',
-        blackImgClasses: 'black black-react-img'
+        backImgClasses: 'back back-react-img'
     },
 ];
