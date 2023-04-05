@@ -9,7 +9,7 @@ const Home = () => {
     <section className="home-container">
         <h1 className="name-title">agustín miola</h1>
         <h1 className="fe-title">front-end web developer</h1>
-        <p className="about-me">Hi, my name is Agustín! I've been studying Front-End Web Development for the last 8 months.  Take a look of what I made at</p>
+        <p className="about-me">Hi, my name is Agustín! I've been studying Front-End Web Development for the last 8 months.  Take a look of what I made at <strong>&darr;</strong></p>
         <div className="projects-box"><NavLink to='/projects' className="projects-title">projects</NavLink></div>
         <div className="skills-box">
             <ul>

@@ -15,7 +15,7 @@
   animation: opening 0.5s ease-in-out;
   transition: 0.5s ease all;
 }
-.red-line {
+.line {
   height: 100%;
   width: 100%;
   background: var(--main-color);
@@ -76,7 +76,7 @@ p {
   justify-self: end;
 }
 
-.red-line1 {
+.line1 {
   grid-column: 2;
   grid-row: 1/8;
 }
@@ -149,7 +149,7 @@ p {
   transform: translateY(2rem);
 }
 
-.red-line2 {
+.line2 {
   grid-column: 1/11;
   grid-row: 6;
 }
@@ -298,7 +298,7 @@ p {
     writing-mode: horizontal-tb;
   }
 
-  .red-line1 {
+  .line1 {
     display: block;
   }
 
@@ -362,7 +362,7 @@ p {
     order: 8;
   }
 
-  .red-line2 {
+  .line2 {
     order: 9;
   }
 

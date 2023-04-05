@@ -39,7 +39,7 @@ const Skills = () => {
     <div className="whole-skills-container">
     <section className="skills-container">
         <h1 className="skills-title2">skills</h1>
-        <div className="red-line red-line1"></div>
+        <div className="line line1"></div>
         
           {skills.map((skill,i)=>(
             <div key={i} className={skill.textClasses} id={skill.hidden}>
@@ -59,7 +59,7 @@ const Skills = () => {
             </div>
         )})}
         
-        <div className="red-line red-line2"></div>
+        <div className="line line2"></div>
         <h3 className='other-skills'>Other skills: SQL, git</h3>
     </section>
     </div>
