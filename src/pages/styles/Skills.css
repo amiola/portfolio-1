@@ -282,7 +282,7 @@ p {
   }
   .whole-skills-container {
     width: 100vw;
-    overflow: visible;
+    height: auto;
   }
   .skills-container {
     display: flex;
@@ -298,6 +298,10 @@ p {
     writing-mode: horizontal-tb;
   }
 
+  .line {
+    height: 2rem;
+    width: 100%;
+  }
   .line1 {
     display: block;
   }
@@ -369,6 +373,8 @@ p {
   .other-skills {
     order: 10;
     border-bottom: 1px dashed black;
+    display: block;
+    margin-bottom: 2rem;
   }
 
   .image {

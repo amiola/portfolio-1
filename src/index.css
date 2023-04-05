@@ -50,7 +50,6 @@ html {
 
 body {
   background: var(--background-color);
-  /* object-fit: cover; */
   animation: opening 1s ease-in-out;
 }
 

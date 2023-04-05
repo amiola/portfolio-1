@@ -16,10 +16,10 @@ const Projects = () => {
         return (
         <div className="project" key={p.name}>
           <div className={i%2?"project-text box-right":"project-text box-left"}>
-          <h3 className={i%2?"title-right":"title-left"}>{p.name[0].toUpperCase()+p.name.substring(1)}</h3>
-          <div className={i%2?"text-box-right":"text-box-left"}><p className={i%2?"text-right":"text-left"}>{p.text}</p></div>
+          <h3 className={i%2?"title title-right":"title title-left"}>{p.name[0].toUpperCase()+p.name.substring(1)}</h3>
+          <div className={i%2?"text-box-right":"text-box-left"}><p className={i%2?"text text-right":"text text-left"}>{p.text}</p></div>
           </div>
-          <img src={image} alt={p.name + 'image'} className='project-img'/>
+          <div className="project-img"><img src={image} alt={p.name + 'image'}/></div>
         </div>
 )})}
       </div>
