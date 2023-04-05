@@ -20,11 +20,11 @@
   width: 100%;
   background: var(--main-color);
 }
-h3 {
+.skills-container h3 {
   font-size: var(--title3);
   font-weight: 500;
 }
-p {
+.skills-container p {
   font-size: var(--text2);
   width: 90%;
 }
@@ -266,8 +266,8 @@ p {
 }
 
 @media only screen and (max-width: 420px) {
-  h3,
-  p {
+  .skills-container h3,
+  .skills-container p {
     margin-left: 2rem;
   }
 
