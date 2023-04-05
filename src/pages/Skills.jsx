@@ -49,8 +49,8 @@ const Skills = () => {
             ))}
 
         {skills.map((skill,i)=>{
-            const image = `public/icons/${skill.icon}`;
-            const backImage = `public/icons/back-${skill.icon}`;
+            const image = `/icons/${skill.icon}`;
+            const backImage = `/icons/back-${skill.icon}`;
             return (
               <div key={i} className={skill.imgClasses}>
             <img className='img1' id={i} src={image} alt={skill.name + ' logo'}

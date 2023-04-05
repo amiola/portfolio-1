@@ -12,7 +12,7 @@ const Projects = () => {
       <h1 className="projects-title2">projects</h1>
       <div className="projects">
       {projectsData.map((p,i)=>{
-        const image = `public/img/${p.image}`
+        const image = `/img/${p.image}`
         return (
         <div className="project" key={p.name}>
           <div className={i%2?"project-text box-right":"project-text box-left"}>
