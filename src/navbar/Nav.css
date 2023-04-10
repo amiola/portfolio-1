@@ -2,7 +2,8 @@ nav {
   display: flex;
   justify-content: space-between;
   background: var(--background-color-2);
-  position: relative;
+  position: fixed;
+  width: 100%;
   z-index: 2;
 }
 

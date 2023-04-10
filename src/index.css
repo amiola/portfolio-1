@@ -17,6 +17,8 @@ html {
   /* Palette 2 */
   --background-color: #dfdfe8;
   --background-color-2: rgb(162, 201, 214);
+  --background-color-3: #b4dce9;
+
   --main-color: #1985a1;
   --main-color-2: #14758d;
 
@@ -34,6 +36,7 @@ html {
   --title5: 2rem;
   --text: 1.7rem;
   --text2: 1.8rem;
+  --text3: 2rem;
   --nav-links: 2rem;
 
   /* Rotated:*/

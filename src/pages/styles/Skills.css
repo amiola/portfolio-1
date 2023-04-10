@@ -4,6 +4,7 @@
   overflow: hidden;
   animation: opening 0.5s ease-in-out;
   transition: 0.5s ease all;
+  transform: translateY(10vh);
 }
 
 #hidden {
@@ -27,6 +28,8 @@
 .skills-container p {
   font-size: var(--text2);
   width: 90%;
+  padding: 1rem;
+  background: var(--background-color-3);
 }
 .html-right {
   text-align: right;
@@ -92,6 +95,9 @@
   grid-column: 4/9;
   grid-row: 3;
 }
+.js-text-box p {
+  clip-path: polygon(0% 4%, 97% 0%, 99.5% 95%, 2% 100%);
+}
 
 .html-img {
   position: relative;
@@ -109,6 +115,9 @@
   margin-right: 0.5rem;
   grid-column: 5/10;
   grid-row: 4;
+}
+.html-text-box p {
+  clip-path: polygon(0% 0%, 93% 5%, 95% 97%, 2% 95%);
 }
 
 .css-img {
@@ -132,7 +141,9 @@
   justify-self: end;
   transform: translateY(-2rem);
 }
-
+.css-text-box p {
+  clip-path: polygon(0% 0%, 90% 2%, 95% 95%, 10% 93%);
+}
 .react-img {
   position: relative;
   grid-column: 6/8;
@@ -147,6 +158,9 @@
   writing-mode: vertical-rl;
   justify-self: end;
   transform: translateY(2rem);
+}
+.react-text-box p {
+  clip-path: polygon(0% 0%, 90% 2%, 95% 95%, 10% 93%);
 }
 
 .line2 {
@@ -210,12 +224,12 @@
 }
 
 /* title and other skills change */
-@media only screen and (max-width: 1200px) {
+@media only screen and (max-width: 1180px) {
   .other-skills {
     grid-column: 7/11;
   }
 }
-@media only screen and (max-width: 992px) {
+@media only screen and (max-width: 1040px) {
   .skills-title2 {
     grid-row: 1/4;
   }
@@ -225,17 +239,17 @@
   .js-text-box {
     grid-column: 4/10;
   }
+  .skills-container {
+    grid-template-rows: 40rem 5rem 0.1fr 0.1fr 12rem 2rem 5rem;
+  }
 }
 @media only screen and (max-width: 940px) {
   .other-skills {
-    grid-column: 6/11;
+    display: none;
   }
 }
 
 @media only screen and (max-width: 860px) {
-  .other-skills {
-    display: none;
-  }
   .html-text-box {
     grid-column: 3/10;
   }
@@ -266,9 +280,12 @@
 }
 
 @media only screen and (max-width: 420px) {
-  .skills-container h3,
+  .skills-container h3 {
+    margin-left: 2rem;
+  }
   .skills-container p {
     margin-left: 2rem;
+    clip-path: polygon(0% 0%, 95% 2%, 97% 97%, 2% 94%);
   }
 
   #hidden {

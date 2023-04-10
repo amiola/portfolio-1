@@ -1,3 +1,12 @@
+.projects-container {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  overflow: hidden;
+  animation: opening 0.5s ease-in-out;
+  transition: 0.5s ease all;
+  transform: translateY(10vh);
+}
 .projects-container h3 {
   font-size: var(--title3);
   font-weight: 500;
@@ -7,14 +16,6 @@
   width: 90%;
 }
 
-.projects-container {
-  display: flex;
-  flex-direction: column;
-  position: relative;
-  overflow: hidden;
-  animation: opening 0.5s ease-in-out;
-  transition: 0.5s ease all;
-}
 .projects-title2 {
   order: 1;
   background: var(--main-color);
@@ -61,6 +62,7 @@
 
 .project-img {
   flex: 1 1 30rem;
+  position: relative;
 }
 
 .project-img img {
@@ -71,6 +73,23 @@
 }
 .project-img:hover {
   transform: scale(1.03) translateY(-0.1rem);
+}
+
+.n-comming {
+  display: none;
+}
+
+.comming {
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: var(--main-color);
+  background-color: var(--background-color);
+  border-radius: 1rem;
+  font-size: 5rem;
+  transform: rotate(17deg) translate(30%, 70%);
+  opacity: 0.6;
+  cursor: pointer;
 }
 
 .circles {
@@ -106,8 +125,16 @@
   }
 }
 
+/* comming soon size */
+@media only screen and (max-width: 1200px) {
+  .comming {
+    font-size: 3.5rem;
+    transform: rotate(17deg) translate(40%, 80%);
+  }
+}
+
 /* change order */
-@media only screen and (max-width: 920px) {
+@media only screen and (max-width: 919px) {
   .projects {
     margin-top: 2rem;
   }
@@ -127,6 +154,10 @@
   .projects-title2 {
     width: 50%;
   }
+  .comming {
+    font-size: 7rem;
+    transform: rotate(17deg) translate(40%, 80%);
+  }
   .circle1 {
     width: 80%;
     height: 40%;
@@ -142,12 +173,29 @@
   }
 }
 
+@media only screen and (max-width: 800px) {
+  .comming {
+    font-size: 6rem;
+    transform: rotate(17deg) translate(40%, 80%);
+  }
+}
+@media only screen and (max-width: 700px) {
+  .comming {
+    font-size: 5rem;
+    transform: rotate(17deg) translate(40%, 80%);
+  }
+}
+
 @media only screen and (max-width: 600px) {
   .project {
     margin: 1rem 5rem;
   }
   .projects-title2 {
     width: 75%;
+  }
+  .comming {
+    font-size: 4rem;
+    transform: rotate(17deg) translate(35%, 80%);
   }
 }
 
@@ -159,6 +207,10 @@
   .title,
   .text {
     margin: 0;
+  }
+  .comming {
+    font-size: var(--title2);
+    transform: rotate(17deg) translate(30%, 80%);
   }
   .circle1 {
     width: 90%;

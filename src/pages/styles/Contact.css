@@ -4,6 +4,8 @@
   justify-content: space-between;
   animation: opening 0.5s ease-in-out;
   transition: 0.5s ease all;
+  margin-bottom: 2rem;
+  transform: translateY(10vh);
 }
 
 .contact-text {
@@ -11,6 +13,10 @@
   flex: 1 1 30rem;
   margin-top: 5rem;
   margin-left: 5rem;
+}
+.contact-text p {
+  font-size: var(--text3);
+  margin-right: 5rem;
 }
 .contact-form {
   margin-top: 20vh;
@@ -21,6 +27,10 @@
 }
 
 .field {
+  display: flex;
+  flex-direction: column;
+}
+.field-complete {
   display: flex;
   font-size: var(--title5);
   padding: 0.5rem;
@@ -56,8 +66,11 @@ input[type="submit"] {
   background: var(--main-color-2);
   font-family: "Oswald", sans-serif;
   font-size: var(--title5);
+  cursor: pointer;
 }
-
+input[type="submit"]:hover {
+  transform: scale(1.05) translateY(-0.2rem);
+}
 .contact-title2 {
   border-bottom: 5px solid black;
   border-top: 5px solid black;
@@ -65,6 +78,18 @@ input[type="submit"] {
   font-weight: 500;
   letter-spacing: 1rem;
   margin-bottom: 5rem;
+}
+
+.alert {
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: var(--text);
+  background-color: mistyrose;
+  border: 1px solid red;
+  color: red;
+  padding: 1rem;
+  margin: 1rem;
+  width: 30vw;
+  align-self: end;
 }
 
 @keyframes opening {
@@ -102,7 +127,8 @@ input[type="submit"] {
     margin-left: 5rem;
   }
   input,
-  textarea {
+  textarea,
+  .alert {
     width: 50vw;
   }
   .submit-box {
@@ -123,4 +149,16 @@ input[type="submit"] {
   .spaces-6 {
     display: none;
   }
+  .contact-text p {
+    margin-right: 2rem;
+  }
+  .alert {
+    width: 80%;
+  }
 }
+
+/* @media only screen and (max-height: 600px) {
+  .contact-form {
+    margin-top: 10vh;
+  }
+} */
