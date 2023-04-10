@@ -149,16 +149,16 @@ input[type="submit"]:hover {
   .spaces-6 {
     display: none;
   }
+  .contact-text {
+    flex: 1 1 10rem;
+  }
   .contact-text p {
     margin-right: 2rem;
+  }
+  .contact-form {
+    flex: 1 1 10rem;
   }
   .alert {
     width: 80%;
   }
 }
-
-/* @media only screen and (max-height: 600px) {
-  .contact-form {
-    margin-top: 10vh;
-  }
-} */

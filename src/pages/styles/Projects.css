@@ -81,13 +81,14 @@
 
 .comming {
   position: absolute;
-  top: 0;
-  left: 0;
+  transform-origin: center;
+  top: 30%;
+  left: 15%;
   color: var(--main-color);
   background-color: var(--background-color);
   border-radius: 1rem;
   font-size: 5rem;
-  transform: rotate(17deg) translate(30%, 70%);
+  transform: rotate(17deg);
   opacity: 0.6;
   cursor: pointer;
 }
@@ -126,10 +127,11 @@
 }
 
 /* comming soon size */
-@media only screen and (max-width: 1200px) {
+@media only screen and (max-width: 1100px) {
   .comming {
     font-size: 3.5rem;
-    transform: rotate(17deg) translate(40%, 80%);
+    top: 30%;
+    left: 15%;
   }
 }
 
@@ -156,7 +158,8 @@
   }
   .comming {
     font-size: 7rem;
-    transform: rotate(17deg) translate(40%, 80%);
+    top: 30%;
+    left: 20%;
   }
   .circle1 {
     width: 80%;
@@ -176,13 +179,11 @@
 @media only screen and (max-width: 800px) {
   .comming {
     font-size: 6rem;
-    transform: rotate(17deg) translate(40%, 80%);
   }
 }
 @media only screen and (max-width: 700px) {
   .comming {
     font-size: 5rem;
-    transform: rotate(17deg) translate(40%, 80%);
   }
 }
 
@@ -195,7 +196,6 @@
   }
   .comming {
     font-size: 4rem;
-    transform: rotate(17deg) translate(35%, 80%);
   }
 }
 
@@ -209,8 +209,7 @@
     margin: 0;
   }
   .comming {
-    font-size: var(--title2);
-    transform: rotate(17deg) translate(30%, 80%);
+    font-size: 4rem;
   }
   .circle1 {
     width: 90%;
@@ -224,5 +223,11 @@
     height: 35%;
     bottom: -5%;
     right: -15%;
+  }
+}
+
+@media only screen and (max-width: 420px) {
+  .comming {
+    font-size: 2.8rem;
   }
 }
