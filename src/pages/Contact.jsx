@@ -1,24 +1,23 @@
-import React from 'react'
+import React, { useContext } from 'react'
 import Nav from '../navbar/Nav'
 import {useForm} from 'react-hook-form'
-import { contactData } from './assets/contact'
+import { contactData, contactValues } from './assets/contact'
 import './styles/Contact.css'
 import Footer from '../footer/Footer'
+import Context from '../context/Context'
 
 const Contact = () => {
-  const {register, handleSubmit, formState:{errors}, watch, setFocus, resetField} = useForm();
+  // const {register, handleSubmit, formState:{errors}, watch, setFocus, resetField} = useForm();
+  // const obtenerValores = (data)=>{console.table(data)}
 
-  const obtenerValores = (data)=>{
-    console.table(data)
-  }
-
+  const {language} = useContext(Context)
   return (
     <>
     <Nav/>
     <section className="contact-container">
     <div className="contact-text">
-    <h1 className='contact-title2'>contact</h1>
-    <p>Thank you for taking the time to explore my portfolio! If you have any questions or want to be in touch, please feel free to reach out.</p>
+    <h1 className='contact-title2'>{contactValues[language].contact}</h1>
+    <p>{contactValues[language].message}</p>
     </div>
     <form action='https://formspree.io/f/mnqygknq' method='POST' 
     //  onSubmit={handleSubmit(obtenerValores)}
@@ -39,7 +38,7 @@ const Contact = () => {
             <span className='spaces-5'>&#160;&#160;&#160;&#160;&#160;&#160;&#160;</span>
             <span className='spaces-6'>&#160;&#160;&#160;&#160;&#160;&#160;&#160;</span>
             
-              {field.name[0].toUpperCase()+field.name.substring(1)}:</label>
+              {field.title[language]}:</label>
             <textarea name={field.name} id={field.name} rows='7' autoComplete="off" required
             // {...register(field.name,field.requirements)}
             />
@@ -64,7 +63,7 @@ const Contact = () => {
           <span className='spaces-6'>&#160;&#160;&#160;&#160;&#160;&#160;&#160;</span>
           <span className='spaces-7'>&#160;&#160;&#160;&#160;&#160;&#160;&#160;</span>
           
-            {field.name[0].toUpperCase()+field.name.substring(1)}:</label>
+          {field.title[language]}:</label>
           <input type={field.type} name={field.name} id={field.name} autoComplete="off" required
           // {...register(field.name,field.requirements)}
           />
@@ -78,7 +77,7 @@ const Contact = () => {
         </div>
       )}
 })}
-      <div className="submit-box"><input type='submit' value='Submit'/></div>
+      <div className="submit-box"><input type='submit' value={contactValues[language].submit}/></div>
     </form>
     </section>
     <Footer/>

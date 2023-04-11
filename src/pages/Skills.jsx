@@ -1,10 +1,11 @@
-import React, { useState } from 'react'
+import React, { useContext, useState } from 'react'
 import './styles/Skills.css'
-import { skillsData } from './assets/skills'
+import { skillsData, skillsValues } from './assets/skills'
 import Nav from '../navbar/Nav'
+import Context from '../context/Context'
 
 const Skills = () => {
-
+  const {language} = useContext(Context);
   const [skills, setSkills] = useState(skillsData);
   const [clicks, setClicks] = useState(0);
 
@@ -38,13 +39,13 @@ const Skills = () => {
     <Nav/>
     <div className="whole-skills-container">
     <section className="skills-container">
-        <h1 className="skills-title2">skills</h1>
+        <h1 className="skills-title2">{skillsValues[language].skills}</h1>
         <div className="line line1"></div>
-        {clicks===0 && <h2 className='skills-message'>Please, click at any icon</h2>}
+        {clicks===0 && <h2 className='skills-message'>{skillsValues[language].message}</h2>}
           {skills.map((skill,i)=>(
             <div key={i} className={skill.textClasses} id={skill.hidden}>
                 <h3 className={skill.titleClasses}>{skill.title}</h3>
-                <p>{skill.text}</p>
+                <p>{skill.text[language]}</p>
             </div>
             ))}
 
@@ -60,7 +61,7 @@ const Skills = () => {
         )})}
         
         <div className="line line2"></div>
-        <h3 className='other-skills'>Other skills: SQL, git</h3>
+        <h3 className='other-skills'>{skillsValues[language].other}: SQL, git</h3>
     </section>
     </div>
     </>

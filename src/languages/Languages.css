@@ -1,16 +1,30 @@
+.languages {
+  position: fixed;
+}
 .whole-home-container .languages {
-  position: absolute;
   bottom: 0;
   right: 0;
   margin: 3rem;
 }
+nav .languages {
+  top: 0;
+  right: 0;
+  margin: 1.5rem;
+}
 
 .languages img {
-  width: 6rem;
   border-radius: 50%;
   box-shadow: 0px 7px 7px rgba(0, 0, 0, 0.3), 0px 15px 30px rgba(0, 0, 0, 0.2);
   cursor: pointer;
 }
+
+.whole-home-container .languages img {
+  width: 6rem;
+}
+nav .languages img {
+  width: 4rem;
+}
+
 .languages img:hover {
   transform: scale(1.05) translateY(-0.2rem);
 }
@@ -31,11 +45,18 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  position: absolute;
+  position: fixed;
+  background: var(--background-color-2);
+}
+.whole-home-container .languages-toggle {
   bottom: 8rem;
   right: -1rem;
-  background: var(--background-color-2);
   padding: 1rem;
+}
+nav .languages-toggle {
+  top: 6.7rem;
+  right: 0%;
+  padding: 2rem;
 }
 
 .languages-toggle h3 {
