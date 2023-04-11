@@ -40,7 +40,7 @@ const Skills = () => {
     <section className="skills-container">
         <h1 className="skills-title2">skills</h1>
         <div className="line line1"></div>
-        
+        {clicks===0 && <h2 className='skills-message'>Please, click at any icon</h2>}
           {skills.map((skill,i)=>(
             <div key={i} className={skill.textClasses} id={skill.hidden}>
                 <h3 className={skill.titleClasses}>{skill.title}</h3>

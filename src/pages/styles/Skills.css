@@ -79,6 +79,21 @@
   justify-self: end;
 }
 
+.skills-message {
+  color: var(--main-color);
+  font-weight: 500;
+  font-size: var(--title3);
+  position: absolute;
+  top: 42%;
+  left: 50%;
+  transform: rotate(40deg);
+  animation: opening 0.5s ease-in-out;
+  transition: 0.5s ease all;
+  background-color: var(--background-color-3);
+  padding: 1rem;
+  clip-path: polygon(0% 7%, 98% 10%, 100% 95%, 2% 90%);
+}
+
 .line1 {
   grid-column: 2;
   grid-row: 1/8;
@@ -247,6 +262,11 @@
   .other-skills {
     display: none;
   }
+  .skills-message {
+    font-size: 2rem;
+    top: 43%;
+    left: 60%;
+  }
 }
 
 @media only screen and (max-width: 860px) {
@@ -258,7 +278,7 @@
   }
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 650px) {
   .img1 {
     width: 8rem;
   }
@@ -279,13 +299,16 @@
   }
 }
 
-@media only screen and (max-width: 420px) {
+@media only screen and (max-width: 600px) {
   .skills-container h3 {
     margin-left: 2rem;
   }
   .skills-container p {
     margin-left: 2rem;
     clip-path: polygon(0% 0%, 95% 2%, 97% 97%, 2% 94%);
+  }
+  .skills-message {
+    display: none;
   }
 
   #hidden {

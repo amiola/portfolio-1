@@ -21,7 +21,7 @@ const Contact = () => {
     <p>Thank you for taking the time to explore my portfolio! If you have any questions or want to be in touch, please feel free to reach out.</p>
     </div>
     <form action='https://formspree.io/f/mnqygknq' method='POST' 
-     onSubmit={handleSubmit(obtenerValores)}
+    //  onSubmit={handleSubmit(obtenerValores)}
     className='contact-form'>
       {contactData.map((field, i)=>{
         if(field.type==='textarea'){
@@ -41,9 +41,11 @@ const Contact = () => {
             
               {field.name[0].toUpperCase()+field.name.substring(1)}:</label>
             <textarea name={field.name} id={field.name} rows='7' autoComplete="off" required
-            {...register(field.name,field.requirements)}/>
+            // {...register(field.name,field.requirements)}
+            />
             </div>
-        {errors.message?.type === 'required' && field.name === 'message' && <div className='alert'>This field is required</div>}
+
+        {/* {errors.message?.type === 'required' && field.name === 'message' && <div className='alert'>This field is required</div>} */}
 
           </div>
           )}
@@ -64,18 +66,19 @@ const Contact = () => {
           
             {field.name[0].toUpperCase()+field.name.substring(1)}:</label>
           <input type={field.type} name={field.name} id={field.name} autoComplete="off" required
-          {...register(field.name,field.requirements)}/>
+          // {...register(field.name,field.requirements)}
+          />
           </div>
         
-        {errors.name?.type === 'required' && field.name === 'name' && <div className='alert'>This field is required</div>}
+        {/* {errors.name?.type === 'required' && field.name === 'name' && <div className='alert'>This field is required</div>}
         {errors.name?.type === 'maxLength' && field.name === 'name'  && <div className='alert'>The maximum amount of characters is {field.requirements.maxLength}</div>}
 
-        {errors.email?.type === 'required' && field.name === 'email' && <div className='alert'>This field is required</div>}
+        {errors.email?.type === 'required' && field.name === 'email' && <div className='alert'>This field is required</div>} */}
         
         </div>
       )}
 })}
-      <div className="submit-box"><input type='submit' value='Submit' /></div>
+      <div className="submit-box"><input type='submit' value='Submit'/></div>
     </form>
     </section>
     <Footer/>
