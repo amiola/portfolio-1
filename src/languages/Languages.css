@@ -138,9 +138,13 @@ nav .flags img {
     align-items: end;
   }
   nav .flags {
+    margin-top: 1rem;
     flex-direction: row;
-    justify-content: space-evenly;
-    width: 10rem;
+    justify-content: space-between;
+    width: 14rem;
+  }
+  nav .flags img {
+    width: 3rem;
   }
 }
 

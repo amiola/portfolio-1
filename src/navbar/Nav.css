@@ -83,6 +83,9 @@ nav {
     font-size: 1.5rem;
     padding: 0 0.2rem;
   }
+  .nav-links {
+    padding-right: 1rem;
+  }
   .nav-fe {
     font-size: 1.5rem;
   }

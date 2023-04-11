@@ -20,7 +20,7 @@ const Nav = () => {
             <li><NavLink to='/skills' className='nav-skills'>{navValues[language].skills}</NavLink></li>
             <li><NavLink to='/projects' className='nav-projects'>{navValues[language].projects}</NavLink></li>
             <li><NavLink to='/contact' className='nav-contact'>{navValues[language].contact}</NavLink></li>
-            <Languages/>
+            <Languages setIsOpen={setIsOpen}/>
         </ul>
         
         <div className={`nav-hamburguer ${isOpen? 'open':''}`} onClick={()=> setIsOpen(!isOpen)}>
