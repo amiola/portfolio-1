@@ -57,19 +57,13 @@
   .footer {
     width: 100%;
     text-align: center;
-    bottom: -25%;
-    transform: rotate(0deg);
+    position: inherit;
+    transform: rotate(0deg) translateY(10rem);
   }
   .links-box {
     clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%);
   }
   .footer h4 {
     margin-bottom: 2rem;
-  }
-}
-
-@media only screen and (max-width: 280px) {
-  .footer {
-    bottom: -30%;
   }
 }
