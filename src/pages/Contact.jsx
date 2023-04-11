@@ -27,18 +27,7 @@ const Contact = () => {
           return(
             <div className={field.class} key={i}>
               <div className="field-complete">
-            <label htmlFor={field.name}>
-
-              {/* spaces: */}
-            &#160;&#160;
-            <span className='spaces-1'>&#160;&#160;&#160;&#160;&#160;&#160;&#160;</span>
-            <span className='spaces-2'>&#160;&#160;&#160;&#160;&#160;&#160;&#160;</span>
-            <span className='spaces-3'>&#160;&#160;&#160;&#160;&#160;&#160;&#160;</span>
-            <span className='spaces-4'>&#160;&#160;&#160;&#160;&#160;&#160;&#160;</span>
-            <span className='spaces-5'>&#160;&#160;&#160;&#160;&#160;&#160;&#160;</span>
-            <span className='spaces-6'>&#160;&#160;&#160;&#160;&#160;&#160;&#160;</span>
-            
-              {field.title[language]}:</label>
+            <label htmlFor={field.name}>{field.title[language]}:</label>
             <textarea name={field.name} id={field.name} rows='7' autoComplete="off" required
             // {...register(field.name,field.requirements)}
             />
@@ -52,18 +41,7 @@ const Contact = () => {
           return(
           <div className={field.class} key={i}>
             <div className="field-complete">
-          <label htmlFor={field.name}>
-
-            {/* spaces: */}
-          <span className='spaces-1'>&#160;&#160;&#160;&#160;&#160;&#160;&#160;</span>
-          <span className='spaces-2'>&#160;&#160;&#160;&#160;&#160;&#160;&#160;</span>
-          <span className='spaces-3'>&#160;&#160;&#160;&#160;&#160;&#160;&#160;</span>
-          <span className='spaces-4'>&#160;&#160;&#160;&#160;&#160;&#160;&#160;</span>
-          <span className='spaces-5'>&#160;&#160;&#160;&#160;&#160;&#160;&#160;</span>
-          <span className='spaces-6'>&#160;&#160;&#160;&#160;&#160;&#160;&#160;</span>
-          <span className='spaces-7'>&#160;&#160;&#160;&#160;&#160;&#160;&#160;</span>
-          
-          {field.title[language]}:</label>
+          <label htmlFor={field.name}>{field.title[language]}:</label>
           <input type={field.type} name={field.name} id={field.name} autoComplete="off" required
           // {...register(field.name,field.requirements)}
           />

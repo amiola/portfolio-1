@@ -35,12 +35,12 @@ export const contactValues = [
     },
     {
         contact: 'contato',
-        message: 'Obrigado por reservar um tempo para explorar meu portfólio! Se você tiver alguma dúvida ou quiser entrar em contato, sinta-se à vontade para entrar em contato.',
+        message: 'Obrigado por dedicar seu tempo para explorar meu portfólio! Se tiver alguma dúvida ou quiser entrar em contato, sinta-se à vontade para enviar uma mensagem.',
         submit: 'Enviar'
     },
     {
         contact: 'contacto',
-        message: '¡Gracias por tomarse el tiempo para explorar mi cartera! Si tiene alguna pregunta o desea estar en contacto, no dude en comunicarse.',
+        message: '¡Gracias por tomarse el tiempo para explorar mi portfolio! Si tiene alguna pregunta o desea entrar en contacto, no dude en comunicarse.',
         submit: 'Enviar'
     }
 ]

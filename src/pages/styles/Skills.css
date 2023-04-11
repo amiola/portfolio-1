@@ -84,8 +84,8 @@
   font-weight: 500;
   font-size: var(--title3);
   position: absolute;
-  top: 42%;
-  left: 50%;
+  top: 12vh;
+  left: 9vw;
   transform: rotate(40deg);
   animation: opening 0.5s ease-in-out;
   transition: 0.5s ease all;
@@ -132,7 +132,7 @@
   grid-row: 4;
 }
 .html-text-box p {
-  clip-path: polygon(0% 0%, 93% 5%, 95% 97%, 2% 95%);
+  clip-path: polygon(0% 0%, 97% 5%, 99% 97%, 2% 95%);
 }
 
 .css-img {
@@ -175,7 +175,7 @@
   transform: translateY(2rem);
 }
 .react-text-box p {
-  clip-path: polygon(0% 0%, 90% 2%, 95% 95%, 10% 93%);
+  clip-path: polygon(0% 0%, 94% 1.5%, 98% 95%, 10% 93.5%);
 }
 
 .line2 {

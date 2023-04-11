@@ -4,8 +4,8 @@ export const skillsData = [
         title: 'JavaScript',
         icon: 'js.png',
         text: ['JavaScript fundamentals, modern JavaScript ES6+, how JavaScript works behind the scenes, object-oriented programming, asynchronous JavaScript and modern tools like NPM, Parcel, Babel, and ES6 modules.',
-        'Fundamentos do JavaScript, JavaScript ES6+ moderno, como o JavaScript funciona nos bastidores, programação orientada a objetos, JavaScript assíncrono e ferramentas modernas como módulos NPM, Parcel, Babel e ES6.',
-        'Fundamentos de JavaScript, JavaScript moderno ES6+, cómo funciona JavaScript entre bastidores, programación orientada a objetos, JavaScript asíncrono y herramientas modernas como módulos NPM, Parcel, Babel y ES6.'
+        'Fundamentos do JavaScript, JavaScript ES6+ moderno, como JavaScript funciona por trás das cenas, programação orientada a objetos, JavaScript assíncrono e ferramentas modernas como módulos NPM, Parcel, Babel e ES6.',
+        'Fundamentos de JavaScript, JavaScript ES6+ moderno, cómo funciona JavaScript detrás de escenas, programación orientada a objetos, JavaScript asíncrono y herramientas modernas como módulos NPM, Parcel, Babel y ES6.'
     ],
         textClasses: 'js-text-box',
         hidden: 'hidden',
@@ -32,7 +32,7 @@ export const skillsData = [
         title: 'CSS',
         icon: 'css.png',
         text: ['Responsive design, animations, flexbox, CSS Grid, SASS, optimization, accessibility and deployment.',
-        'Design responsivo, animações, flexbox, CSS Grid, SASS, otimização, acessibilidade e implantação.',
+        'Design responsivo, animações, flexbox, CSS Grid, SASS, otimização, acessibilidade e implementação.',
         'Diseño responsivo, animaciones, flexbox, CSS Grid, SASS, optimización, accesibilidad e implementación.'
     ],
         textClasses: 'css-text-box',

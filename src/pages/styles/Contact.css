@@ -38,10 +38,12 @@
 }
 
 label {
+  width: 25rem;
   margin-right: 2rem;
   border-bottom: 1px dashed black;
   align-self: flex-start;
   justify-content: end;
+  text-align: right;
 }
 
 input,
@@ -119,17 +121,13 @@ input[type="submit"]:hover {
     align-items: start;
     flex: 1 1 auto;
   }
-  .spaces-1,
-  .spaces-2 {
-    display: none;
-  }
-  label {
+  .field-complete {
     margin-left: 5rem;
   }
   input,
   textarea,
   .alert {
-    width: 50vw;
+    width: 40vw;
   }
   .submit-box {
     margin-top: 2rem;
@@ -137,22 +135,42 @@ input[type="submit"]:hover {
   }
 }
 
-@media only screen and (max-width: 650px) {
-  .spaces-3,
-  .spaces-4 {
-    display: none;
+@media only screen and (max-width: 660px) {
+  input,
+  textarea,
+  .alert,
+  label {
+    width: 35vw;
   }
 }
 
+/* devices */
 @media only screen and (max-width: 482px) {
-  .spaces-5,
-  .spaces-6 {
-    display: none;
-  }
   .contact-text p {
     margin-right: 2rem;
   }
   .alert {
     width: 80%;
+  }
+
+  .field-complete {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 5rem;
+  }
+
+  input,
+  textarea,
+  .alert {
+    width: 70vw;
+    align-self: flex-start;
+  }
+  label {
+    margin: 0;
+    margin-bottom: 1rem;
+    width: 70vw;
   }
 }
