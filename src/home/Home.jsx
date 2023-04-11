@@ -3,7 +3,7 @@ import { NavLink } from 'react-router-dom'
 import './Home.css'
 import Languages from '../languages/Languages'
 import Context from '../context/Context'
-import { homeValues } from './HomeValues'
+import { homeValues } from './homeValues'
 
 const Home = () => {
   const {language} =useContext(Context)
