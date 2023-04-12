@@ -297,6 +297,11 @@
   .html-text-box {
     transform: translateY(0);
   }
+  .skills-message {
+    font-size: 2rem;
+    top: 34%;
+    left: 69%;
+  }
 }
 
 @media only screen and (max-width: 600px) {
