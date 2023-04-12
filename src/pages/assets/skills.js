@@ -60,17 +60,17 @@ export const skillsData = [
 export const skillsValues = [
     {
         skills: 'skills',
-        message: 'Please, click at any icon',
+        message: 'Click at any icon to read the description',
         other: 'Other skills'
     },
     {
         skills: 'habilidades',
-        message: 'Por favor, clique em qualquer ícone',
+        message: 'Clique em qualquer ícone para ler a descrição',
         other: 'Outras habilidades'
     },
     {
         skills: 'habilidades',
-        message: 'Por favor, haga clic en cualquier icono',
+        message: 'Haga clic en cualquier ícono para leer la descripción',
         other: 'Otras habilidades'
     }
 ]
