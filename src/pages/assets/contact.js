@@ -40,7 +40,7 @@ export const contactValues = [
     },
     {
         contact: 'contacto',
-        message: '¡Gracias por tomarse el tiempo para explorar mi portfolio! Si tiene alguna pregunta o desea entrar en contacto, no dude en comunicarse.',
+        message: '¡Gracias por tomarte el tiempo para explorar mi portfolio! Si tienes alguna pregunta o deseas entrar en contacto, no dudes en comunicarte conmigo.',
         submit: 'Enviar'
     }
 ]

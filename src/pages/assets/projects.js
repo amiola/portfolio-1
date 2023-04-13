@@ -26,6 +26,7 @@ export const projectsData = [
         image: 'wikideas.png',
         link:'/projects',
         comming: true
+        
     },
     {
         name: ['Paws \'n\' claws','Paws \'n\' claws','Paws \'n\' claws'],

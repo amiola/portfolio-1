@@ -23,7 +23,7 @@ const Projects = () => {
           <div className={i%2?"text-box-right":"text-box-left"}><p className={i%2?"text text-right":"text text-left"}>{p.text[language]}</p></div>
           </div>
           <div className="project-img"><NavLink to={p.link}><img src={image} alt={p.name[language] + 'image'}/></NavLink>
-          <h1 className={p.comming? 'comming':'n-comming'}>{projectsValues[language].comming}</h1>
+          <h1 className={p.comming? 'comming':'n-comming'} id={language===1?'big':''}>{projectsValues[language].comming}</h1>
           </div>
         </div>
 )})}

@@ -12,7 +12,7 @@ export const homeValues = [
         contact: 'contato'
     },
     {
-        about: '¡Hola, mi nombre es Agustín! He estado estudiando Desarrollo Web Front-End durante los últimos 8 meses. Echa un vistazo a lo que hice en',
+        about: '¡Hola, mi nombre es Agustín! He estado estudiando Desarrollo Web Front-End durante los últimos 8 meses. Mira los trabajos que hice en',
         projects: 'proyectos',
         skills: 'habilidades',
         contact: 'contacto'

@@ -93,6 +93,12 @@
   cursor: pointer;
 }
 
+#big {
+  font-size: 6rem;
+  top: 35%;
+  left: 25%;
+}
+
 .circles {
   z-index: -1;
 }
@@ -100,7 +106,7 @@
 .circle1 {
   position: absolute;
   width: 60vw;
-  height: 85vh;
+  height: 80vh;
   border: 2px dashed var(--main-color);
   border-radius: 50%;
   top: -20%;
@@ -110,7 +116,7 @@
 .circle2 {
   position: absolute;
   width: 50vw;
-  height: 80vh;
+  height: 75vh;
   border: 2px dashed var(--main-color);
   border-radius: 50%;
   bottom: -30%;
@@ -132,6 +138,11 @@
     font-size: 3.5rem;
     top: 30%;
     left: 15%;
+  }
+  #big {
+    font-size: 5rem;
+    top: 27%;
+    left: 20%;
   }
 }
 
@@ -158,8 +169,13 @@
   }
   .comming {
     font-size: 7rem;
-    top: 30%;
+    top: 35%;
     left: 20%;
+  }
+  #big {
+    font-size: 9rem;
+    top: 30%;
+    left: 25%;
   }
   .circle1 {
     width: 80%;
@@ -179,11 +195,19 @@
 @media only screen and (max-width: 800px) {
   .comming {
     font-size: 6rem;
+    left: 17%;
+  }
+  #big {
+    font-size: 8rem;
+    left: 20%;
   }
 }
 @media only screen and (max-width: 700px) {
   .comming {
     font-size: 5rem;
+  }
+  #big {
+    font-size: 7rem;
   }
 }
 
@@ -195,12 +219,15 @@
     width: 75%;
   }
   .comming {
-    font-size: 4rem;
+    font-size: 4.5rem;
+  }
+  #big {
+    font-size: 6.5rem;
   }
 }
 
 /* phones */
-@media only screen and (max-width: 420px) {
+@media only screen and (max-width: 460px) {
   .project {
     margin: 1rem 3rem;
   }
@@ -210,6 +237,9 @@
   }
   .comming {
     font-size: 4rem;
+  }
+  #big {
+    font-size: 5rem;
   }
   .circle1 {
     width: 90%;
@@ -226,8 +256,15 @@
   }
 }
 
-@media only screen and (max-width: 420px) {
+@media only screen and (max-width: 360px) {
   .comming {
     font-size: 2.8rem;
+  }
+  #big {
+    font-size: 4rem;
+    top: 23%;
+  }
+  .projects-title2 {
+    width: 80%;
   }
 }
