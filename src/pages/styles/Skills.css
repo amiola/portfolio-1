@@ -172,10 +172,10 @@
   -webkit-writing-mode: vertical-rl;
   writing-mode: vertical-rl;
   justify-self: end;
-  transform: translateY(2rem);
+  transform: translateY(1rem);
 }
 .react-text-box p {
-  clip-path: polygon(0% 0%, 94% 1.5%, 98% 95%, 10% 93.5%);
+  clip-path: polygon(0% 0%, 94% 1.5%, 98% 99%, 10% 97%);
 }
 
 .line2 {

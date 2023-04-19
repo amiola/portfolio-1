@@ -45,9 +45,9 @@ export const skillsData = [
         name: 'react',
         title: 'React',
         icon: 'react.png',
-        text: ['Components, hooks (useRef, useState, useEffect, useReducer), events, functions, context, routing, forms, styled components.',
-        'Componentes, hooks (useRef, useState, useEffect, useReducer), eventos, funções, contexto, roteamento, formulários, componentes estilizados.',
-        'Componentes, hooks (useRef, useState, useEffect, useReducer), eventos, funciones, contexto, enrutamiento, formularios, componentes con estilos.'
+        text: ['React.js-React Native: Components, hooks (useRef, useState, useEffect, useReducer), events, functions, context, routing, forms, styled components.',
+        'React.js-React Native: Componentes, hooks (useRef, useState, useEffect, useReducer), eventos, funções, contexto, roteamento, formulários, componentes estilizados.',
+        'React.js-React Native: Componentes, hooks (useRef, useState, useEffect, useReducer), eventos, funciones, contexto, enrutamiento, formularios, componentes con estilos.'
     ],
         textClasses: 'react-text-box jus-right',
         hidden: 'hidden',
