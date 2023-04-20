@@ -132,7 +132,7 @@ developer */
   }
   .home-container {
     transform: translateX(4rem);
-    grid-template-columns: 4fr var(--title2) 1fr 1fr 1.5fr;
+    grid-template-columns: 3fr var(--title2) 1fr 1fr 1.5fr;
     margin-top: 1rem;
   }
   .name-title {
@@ -148,6 +148,12 @@ developer */
   .projects-title,
   .contact-title {
     font-size: var(--title3-r);
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .home-container {
+    grid-template-columns: 4fr var(--title2) 9rem 1fr 1.5fr;
   }
 }
 
