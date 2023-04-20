@@ -48,8 +48,9 @@ nav .world {
 }
 .whole-home-container .languages-toggle {
   bottom: 8.5rem;
-  right: 0rem;
+  right: -0.8rem;
   padding: 1rem;
+  width: 15rem;
 }
 nav .languages-toggle {
   top: 6.7rem;
@@ -161,8 +162,9 @@ nav .flags img {
   }
   .whole-home-container .languages-toggle {
     top: 7rem;
-    right: 0.1rem;
+    right: -0.5rem;
     height: 17rem;
+    width: 15rem;
   }
   .whole-home-container .cur-language {
     width: 4rem;
