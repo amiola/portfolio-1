@@ -16,6 +16,18 @@ export const projectsData = [
 
     // },
     {
+        name: ['Bibliotwist','Bibliotwist','Bibliotwist'],
+        text: ['A mobile application built using a React Native framework that allows users to search, read, and save their favorite books. The app provides an intuitive and user-friendly interface that enables users to quickly find and access books from a wide range of genres.',
+
+        'Aplicativo móvel construído usando React Native que permite aos usuários pesquisar, ler e salvar seus livros favoritos. O aplicativo fornece uma interface intuitiva e amigável, onde os usuários poderão achar e acessar rapidamente a livros de uma ampla variedade de gêneros.',
+
+        'Aplicación móvil creada con React Native que permite a los usuarios buscar, leer y guardar sus libros favoritos. La aplicación proporciona una interfaz intuitiva y fácil de usar, donde los usuarios poderán encontrar y acceder rápidamente a libros de una amplia gama de géneros.'
+    ],
+        image: 'bibliotwist.png',
+        link:'https://expo.dev/@agustinmiola/bibliotwist2',
+        comming: false
+    },
+    {
         name: ['Wikideas','Wikideas','Wikideas'],
         text: ['Project made with a group of developers at the platform "Id for ideas". An open content encyclopedia, understood as a support that allows the collection, storage and transmission of information in a structured way. This information will be used by an AI whose main objective is to collect information of all kinds to create a bot that answers everything that is asked.',
 
@@ -27,18 +39,6 @@ export const projectsData = [
         link:'/projects',
         comming: true
         
-    },
-    {
-        name: ['Bibliotwist','Bibliotwist','Bibliotwist'],
-        text: ['A mobile application built using the React Native framework that allows users to search, read, and save their favorite books. The app provides an intuitive and user-friendly interface that enables users to quickly find and access books from a wide range of genres.',
-
-        'Aplicativo móvel construído usando React Native que permite aos usuários pesquisar, ler e salvar seus livros favoritos. O aplicativo fornece uma interface intuitiva e amigável, onde os usuários poderão achar e acessar rapidamente a livros de uma ampla variedade de gêneros.',
-
-        'Aplicación móvil creada con React Native que permite a los usuarios buscar, leer y guardar sus libros favoritos. La aplicación proporciona una interfaz intuitiva y fácil de usar, donde los usuarios poderán encontrar y acceder rápidamente a libros de una amplia gama de géneros.'
-    ],
-        image: 'bibliotwist.png',
-        link:'/projects',
-        comming: true
     },
     {
         name: ['Paws \'n\' claws','Paws \'n\' claws','Paws \'n\' claws'],
