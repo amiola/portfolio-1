@@ -28,6 +28,18 @@ export const projectsData = [
         comming: false
     },
     {
+        name: ['Thymo','Thymo','Thymo'],
+        text: ['Thymo is a comprehensive health and fitness platform designed to help you achieve your wellness goals. With Thymo, you can set a personalized training routine tailored to your fitness level and goals. You\'ll have access to hundreds of different exercises, with detailed instructions and videos to help you perform them correctly. Thymo also offers health and nutrition advice, including light recipes to help you maintain a healthy diet. Whether you\'re looking to lose weight, build muscle, or simply improve your overall health, Thymo has everything you need to succeed.',
+
+        'Thymo é uma plataforma abrangente de saúde e fitness projetada para ajudá-lo a atingir seus objetivos de bem-estar. Com Thymo, você pode definir uma rotina de treinamento personalizada adaptada ao seu nível de condicionamento físico e objetivos. Você terá acesso a centenas de exercícios diferentes, com instruções detalhadas e vídeos para ajudá-lo a realizá-los corretamente. Thymo também oferece conselhos de saúde e nutrição, incluindo receitas leves para ajudá-lo a manter uma dieta saudável. Esteja você procurando perder peso, construir músculos ou simplesmente melhorar sua saúde geral, o Thymo tem tudo o que você precisa para ter sucesso.',
+
+        'Thymo es una plataforma integral de salud y fitness diseñada para ayudarte a alcanzar tu bienestar. Con Thymo, puedes establecer una rutina de entrenamiento personalizada adaptada a su nivel de condición física y objetivos. Tendrás acceso a cientos de ejercicios diferentes, con instrucciones detalladas y videos para ayudarte a realizarlos correctamente. Thymo también ofrece consejos de salud y nutrición, incluyendo recetas livianas para ayudarte a mantener una dieta saludable. Ya sea que estés buscando perder peso, desarrollar músculo o simplemente mejorar tu salud en general, Thymo tiene todo lo que necesitas para tener éxito.'
+    ],
+        image: 'thymo.png',
+        link:'/projects',
+        comming: true
+    },
+    {
         name: ['Wikideas','Wikideas','Wikideas'],
         text: ['Project made with a group of developers at the platform "Id for ideas". An open content encyclopedia, understood as a support that allows the collection, storage and transmission of information in a structured way. This information will be used by an AI whose main objective is to collect information of all kinds to create a bot that answers everything that is asked.',
 
