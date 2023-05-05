@@ -36,7 +36,7 @@ export const projectsData = [
         'Thymo es una plataforma integral de salud y fitness diseñada para ayudarte a alcanzar tu bienestar. Con Thymo, puedes establecer una rutina de entrenamiento personalizada adaptada a su nivel de condición física y objetivos. Tendrás acceso a cientos de ejercicios diferentes, con instrucciones detalladas y videos para ayudarte a realizarlos correctamente. Thymo también ofrece consejos de salud y nutrición, incluyendo recetas livianas para ayudarte a mantener una dieta saludable. Ya sea que estés buscando perder peso, desarrollar músculo o simplemente mejorar tu salud en general, Thymo tiene todo lo que necesitas para tener éxito.'
     ],
         image: 'thymo.png',
-        link:'/projects',
+        link:'https://github.com/amiola/thymo',
         comming: true
     },
     {
