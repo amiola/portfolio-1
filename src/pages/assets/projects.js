@@ -40,6 +40,19 @@ export const projectsData = [
         comming: false
     },
     {
+        name: ['Rockin\' Words','Rockin\' Words','Rockin\' Words'],
+        text: ['Rockin\' Words is an engaging website that transforms learning into play for 4-7 year olds. With captivating games centered around words with missing letters, it sparks curiosity and enhances vocabulary skills. Through interactive challenges, children can rock their way to language proficiency while having a blast.',
+
+        'Rockin\' Words é um site envolvente que transforma a aprendizagem em brincadeira para crianças de 4 a 7 anos. Com jogos cativantes baseados em palavras com letras faltando, ele desperta a curiosidade e aprimora as habilidades de vocabulário. Por meio de desafios interativos, as crianças podem se divertir enquanto avançam em sua proficiência na língua.',
+
+        'Rockin\' Words es un sitio web que convierte el aprendizaje en juego para niños de 4 a 7 años. Con juegos fascinantes centrados en palabras con letras faltantes, despierta la curiosidad y mejora las habilidades de vocabulario. A través de desafíos interactivos, los niños pueden divertirse mientras mejoran su dominio del lenguaje.'
+    ],
+        image: 'rockin-words.png',
+        link:'https://rockin-words.netlify.app/',
+        comming: false
+    },
+    /*
+    {
         name: ['Wikideas','Wikideas','Wikideas'],
         text: ['Project made with a group of developers at the platform "Id for ideas". An open content encyclopedia, understood as a support that allows the collection, storage and transmission of information in a structured way. This information will be used by an AI whose main objective is to collect information of all kinds to create a bot that answers everything that is asked.',
 
@@ -64,7 +77,7 @@ export const projectsData = [
         link:'/projects',
         comming: true
     }
-
+*/
 ]
 
 export const projectsValues = [
