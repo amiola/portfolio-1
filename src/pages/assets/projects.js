@@ -51,6 +51,18 @@ export const projectsData = [
         link:'https://rockin-words.netlify.app/',
         comming: false
     },
+    {
+        name: ['Market Recipe Scrapper','Coletor de Recibos de Mercado','Colector de Recibos de Supermercado'],
+        text: ['Website to collect supermarket purchase receipts and obtain monthly expense summaries.',
+
+        'Site para coletar recibos de compras de supermercado e obter resumos de gastos mensais.',
+
+        'Sitio web para recopilar recibos de compras de supermercado y obtener resúmenes de gastos mensuales.'
+    ],
+        image: 'market.png',
+        link:'https://market-recipe-scrapper.netlify.app/',
+        comming: false
+    }
     /*
     {
         name: ['Wikideas','Wikideas','Wikideas'],
