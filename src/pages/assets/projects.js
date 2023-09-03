@@ -60,7 +60,8 @@ export const projectsData = [
         'Sitio web para recopilar recibos de compras de supermercado y obtener resúmenes de gastos mensuales.'
     ],
         image: 'market.png',
-        link:'https://market-recipe-scrapper.netlify.app/',
+        // link:'https://market-recipe-scrapper.netlify.app/',
+        link:'/projects',
         comming: false
     }
     /*
